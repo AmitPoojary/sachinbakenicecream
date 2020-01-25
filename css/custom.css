@@ -1,0 +1,70 @@
+.mainLogo {
+    float: left;
+    position: absolute;
+    z-index: 9999;
+}
+
+.main_page_background {
+    width: 100%;
+}
+
+.custom_background {
+    width: 100%;
+}
+
+#bg {
+    position: fixed;
+    /* top: 0; 
+    left: 0;  */
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -9;
+}
+
+.custom_navbar {
+    width: 100%;
+    background:white;
+    
+}
+
+.custom_flavour_prod_logo {
+    position: absolute;
+    top: 18%;
+    left: 56%;
+}
+
+.custom_savita_prd_logo {
+    position: absolute;
+    top: 52%;
+    left: 60%;
+}
+
+.custom_home_page_nav_bar {
+    font-size: 24px;
+    font-family: 'Roboto Bold', sans-serif;
+    text-align: center;
+    width: 50%;
+}
+.custom_prod_backgrd{
+  background-size:cover;
+    background: linear-gradient(0deg,rgba(37,37,37,0.3),rgba(37,37,37,0.3)),url("../img/prod_background.png");
+}
+.custom_prod_logo{
+    margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+body {
+    background: white;
+}
+.page_titles{
+    text-align:center;
+    font-size: 50px;
+    padding: 56px;
+}
+.about_us_details{
+    background: #EBEBEB;
+    padding: 35px;
+    margin-bottom: 60px;
+}
